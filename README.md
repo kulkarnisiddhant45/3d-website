@@ -1,2 +1,2 @@
-# 3d-website
+# 3D-website
 basic to advance
