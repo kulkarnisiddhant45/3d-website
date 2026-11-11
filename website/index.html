@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lumen Studio – 3D Web Experience</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bar" id="bar"></div>
+<canvas id="gl" aria-hidden="true"></canvas>
+
+<header>
+  <b>Lumen</b>
+  <nav>
+    <a href="#top">Home</a>
+    <a href="#work">Work</a>
+    <a href="#craft">Craft</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <h1>Websites that move in depth.</h1>
+  <p>We build interactive 3D experiences that run in any browser. Scroll, move your mouse, and watch the shape respond.</p>
+  <a class="btn" href="#work">See our work</a>
+</section>
+
+<section class="right" id="work">
+  <h2>Shapes that react to you</h2>
+  <p class="lead">The object behind this text rotates, shifts and changes with your scroll position and cursor, all in real time with WebGL.</p>
+</section>
+
+<section id="craft">
+  <h2>What we make</h2>
+  <p class="lead">Three services, one goal: pages people remember.</p>
+  <div class="grid">
+    <div class="card"><h3>3D product pages</h3><p>Rotate, zoom and inspect products right on the page.</p></div>
+    <div class="card"><h3>Animated landing pages</h3><p>Scroll-driven scenes that explain your story step by step.</p></div>
+    <div class="card"><h3>Interactive demos</h3><p>Playable visuals and data scenes that load fast on mobile.</p></div>
+  </div>
+</section>
+
+<section class="right" id="contact">
+  <h2>Start a project</h2>
+  <p class="lead">Tell us what you want to show. We reply within two days.</p>
+  <a class="btn" href="mailto:hello@example.com">Send an email</a>
+</section>
+
+<footer>© 2026 Lumen Studio. Built with three.js.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
